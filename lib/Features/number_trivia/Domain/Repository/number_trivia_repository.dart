@@ -1,7 +1,8 @@
 
-import '../Entities/number_trivia.dart';
-import '../../../../core/errors/failures.dart';
 import 'package:dartz/dartz.dart';
+
+import '../../../../core/errors/failures.dart';
+import '../Entities/number_trivia.dart';
 
 abstract class NumberTriviaRepository {
 

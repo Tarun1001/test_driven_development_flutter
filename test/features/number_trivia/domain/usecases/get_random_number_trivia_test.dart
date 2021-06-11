@@ -14,7 +14,7 @@ class MockNumberTriviaRepository extends Mock
   MockNumberTriviaRepository mockNumberTriviaRepository;
 
   mockNumberTriviaRepository = MockNumberTriviaRepository();
-  usecase = GetRandomNumberTrivia(repository:  mockNumberTriviaRepository);
+  usecase = GetRandomNumberTrivia(mockNumberTriviaRepository);
 
   
   final tNubmerTrivia = NumberTrivia(number: 1, text: 'test');

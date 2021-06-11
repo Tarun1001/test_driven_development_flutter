@@ -8,9 +8,9 @@ import 'package:equatable/equatable.dart';
 
 class GetRandomNumberTrivia extends Usecase<NumberTrivia,NoParams> {
   NumberTriviaRepository repository;
-  GetRandomNumberTrivia({
-    required this.repository,
-  });
+  GetRandomNumberTrivia(
+    this.repository,
+  );
 
 
 
